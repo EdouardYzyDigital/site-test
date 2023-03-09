@@ -4,6 +4,9 @@ import * as React from 'react'
 //import the layout
 import Layout from '../components/layout'
 
+//import composent seo
+import Seo from '../components/seo'
+
 // Step 2: Define your component
 const AboutPage = () => {
   return (
@@ -14,7 +17,7 @@ const AboutPage = () => {
 }
 
 //Add a page title to your page
-export const Head = () => <title>About Me</title>
+export const Head = () => <Seo title="About Me" />
 
 // Step 3: Export your component
 export default AboutPage
