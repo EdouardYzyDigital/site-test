@@ -17,7 +17,7 @@ const AboutPage = () => {
 }
 
 //Add a page title to your page
-export const Head = () => <Seo title="About Me" />
+export const Head = () => <Seo title="About Me" description="About"/>
 
 // Step 3: Export your component
 export default AboutPage
